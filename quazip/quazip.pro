@@ -1,5 +1,5 @@
 TEMPLATE = lib
-CONFIG += qt warn_on
+CONFIG += qt warn_on staticlib
 QT -= gui
 
 # Creating pkgconfig .pc file
@@ -29,6 +29,9 @@ QMAKE_PKGCONFIG_REQUIRES = Qt5Core
 # 2.0, VERSION to 2.0.0.
 # And so on.
 
+macx {
+    QMAKE_MACOSX_DEPLOYMENT_TARGET = 10.8
+}
 
 # This one handles dllimport/dllexport directives.
 DEFINES += QUAZIP_BUILD
