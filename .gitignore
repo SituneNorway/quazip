@@ -1,1 +1,13 @@
 /doc
+/.qmake.stash
+/Makefile
+/quazip/.moc/
+/quazip/.obj/
+/quazip/Makefile
+/quazip/libquazip.a
+/quazip/libquazip.prl
+/quazip/pkgconfig/
+/qztest/.moc/
+/qztest/.obj/
+/qztest/Makefile
+/qztest/qztest
